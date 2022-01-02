@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" href="./resources/logo.png" type="image/x-icon">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ebe6e75da4.js" crossorigin="anonymous"></script>
+    
     <link href="./resources/css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet">   
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
     <header>
@@ -28,14 +30,14 @@
 
     <!-- About Me -->
 
-    <section class="page" id="about">
+    <section id="about" class="page">
         <div id="skills">
             <p>Languages I'm good at:</p>
             <div>CSS <i class="fab fa-css3-alt"></i></div>
             <div>HTML <i class="fab fa-html5"></i></div>
             <div>JavaScript <i class="fab fa-js-square"></i></div>
         </div>
-        <div class="header" id="about-me">
+        <div id="about-me" class="header">
             <p>Hi,</p>
             <p>I'm Louise,</p>
             <p>Developer Student</p>
@@ -44,7 +46,7 @@
 
     <!-- Projects -->
 
-    <section class="page" id="projects">
+    <section id="projects" class="page">
 
         <div id="project-container">
 
@@ -54,14 +56,17 @@
                     <p class="project-title">Company Home Page</p>
                     <p class="description">Short description of the project.
                         What Ive learned and what the project 
+                        will provide for the user.
+                        Short description of the project.
+                        What I've learned and what the project 
                         will provide for the user.</p>
                     <div class="skill-btns">
                         <span class="skill-btn">CSS</span>
                         <span class="skill-btn">HTML</span>
                     </div>
                     <div class="btns">
-                        <button>Live site</button>
-                        <button>Code</button>
+                        <a href="https://louisenorrsen.github.io/company_home_page/" target="_blank"><button id="yolo-btn">Live site</button></a>
+                        <a href="https://github.com/louisenorrsen/company_home_page.git" target="_blank"><button id="yolo-code">Code</button></a>
                     </div>
                 </div>
             </div>
@@ -73,6 +78,8 @@
                     <p class="project-title">Club Website</p>
                     <p class="description">Short description of the project.
                         What I've learned and what the project 
+                        will provide for the user. Short description of the project.
+                        What I've learned and what the project 
                         will provide for the user.</p>
                     <div class="skill-btns">
                         <span class="skill-btn">CSS</span>
@@ -80,14 +87,14 @@
                         <span class="skill-btn">HTML</span>
                     </div>
                     <div class="btns">
-                        <button>Live site</button>
-                        <button>Code</button>
+                        <a href="https://louisenorrsen.github.io/club-website/" target="_blank"><button id="dog-btn">Live site</button></a>
+                        <a href="https://github.com/louisenorrsen/club-website" target="_blank"><button id="dog-code">Code</button></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="header" id="project-header">
+        <div id="project-header" class="header">
             <p>Projects</p>
             <button id="archive-btn">Archive of older projects</button>
         </div>
@@ -95,26 +102,26 @@
 
     <!-- Contact -->
 
-    <section class="page" id="contact"> 
+    <section id="contact" class="page"> 
         <div id="contact-form">
             <p>Send me a message</p>
-            <form>
+            <form action="#" method="post">
                 <label for="name" id="name-label">Name:</label>
                 <input id="name" 
-                    name="name"
+                    name="user-name"
                     type="text"
                     required>
-                <label for="email" id="email-label">E-Mail:</label>
+                <label id="email-label" for="email">E-Mail:</label>
                 <input id="email"
-                    for="email" 
+                    name="user-email" 
                     type="email"
                     required>
                 <label for="message">Message:</label>
                 <textarea id="message" 
-                    name="message"
+                    name="user-message"
                     rows="10"
                     required></textarea>
-                <button id="submit" name="submit">Send</button>
+                <button type="submit">Send</button>
             </form>
         </div>
         <div class="contact-header">
@@ -129,5 +136,6 @@
             </div>
         </div>
     </section>
+    <script src="resources/js/script.js"></script>
 </body>
 </html>

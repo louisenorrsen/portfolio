@@ -364,6 +364,10 @@ button:hover {
     padding: .2rem;
 }
 
+a p {
+    display: none;
+}
+
 @media only screen and (max-width: 550px) {
     #contact {
         grid-template: 10% 15% 1fr / 1fr;

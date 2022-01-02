@@ -18,7 +18,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 885px) {
+@media only screen and (max-width: 900px) {
     html {
         font-size: 12px;
     }
@@ -221,12 +221,16 @@ nav img {
     text-decoration: underline;
 }
 
+.description {
+    font-size: 0.8rem;
+}
+
 button {
     background-color: hsl(27, 98%, 54%);
     border: none;
     font-size: 1.1rem;
     color: #160527;
-    padding: .4rem;
+    padding: .2rem;
     margin-right: .5rem;
     font-family: 'Skranji', cursive;
     cursor: pointer;
@@ -247,10 +251,10 @@ button:hover {
 .skill-btn {
     border: 1px solid hsl(295, 25%, 90%);
     font-size: .8rem;
-    padding: .3rem 1rem;
+    padding: .1rem 1rem;
 }
 
-@media only screen and (max-width: 885px) {
+@media only screen and (max-width: 900px) {
     .project {
         flex-direction: column;
         align-items: center;

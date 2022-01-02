@@ -240,7 +240,7 @@ button:hover {
     background-color: hsl(270, 40%, 9%);
     border: 1px solid hsl(295, 25%, 90%);
     color: hsl(295, 25%, 90%);
-    padding: .3rem;
+    padding: .1rem;
 }
 
 .btns {
@@ -361,7 +361,7 @@ button:hover {
 
 #contact button:hover {
     border: none;
-    padding: .4rem;
+    padding: .2rem;
 }
 
 @media only screen and (max-width: 550px) {

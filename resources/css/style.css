@@ -37,7 +37,6 @@ html {
 }
 
 
-
 /* Navigation Bar */
 
 nav {
@@ -191,6 +190,20 @@ nav img {
     }
 }
 
+@media only screen and (max-width: 350px) {
+    .header {
+        font-size: 3rem;
+    }
+
+    #about {
+        grid-template: 15% 1fr 2fr / 1fr;
+    }
+
+    #about-me {
+        justify-content: center;
+    }
+}
+
 /* Projects */
 
 #projects {
@@ -325,6 +338,24 @@ button:hover {
     
     .project img {
         max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .header {
+        font-size: 3rem;
+    }
+
+    #projects {
+        grid-template: 15% 9% 1fr / 1fr;
+    }
+
+    .project img {
+        max-width: 40%;
+    }
+
+    .description {
+        font-size: 1rem;
     }
 }
 

@@ -92,9 +92,6 @@ nav img {
     max-width: 5rem; 
 }
 
-
-/* About Me */
-
 #color-dot {
     border-radius: 50%;
     border:2px solid hsl(295, 25%, 90%);
@@ -107,8 +104,16 @@ nav img {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    margin-right: 2rem;
 }
 
+@media only screen and (max-width: 415px) {
+    nav #logo {
+        display: none;
+    }
+}
+
+/* About Me */
 .page {
     width: 100%;
     height: 100vh;

@@ -104,6 +104,7 @@ nav img {
     align-items: center;
     cursor: pointer;
     margin-right: 2rem;
+    user-select: none;
 }
 
 @media only screen and (max-width: 415px) {

@@ -1,4 +1,5 @@
 # Portfolio
+Live: [Portfolio](https://www.louisenorrsen.com)
 
 My dream is to become a developer. To achieve this goal, I created an account at Codecademy.
 This project is a part of my journey towards my new career and I'm learning so much about coding.
